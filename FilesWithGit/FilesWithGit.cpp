@@ -26,4 +26,11 @@ int main()
 {
 	Shoes inStock[5];
 	Shoes* ptr1 = &inStock[5];
+
+	inStock[0].brand = "Nike";
+	inStock[0].material = "Leather and plastic";
+	inStock[0].type = "Running shoe";
+	inStock[0].colour = "Black";
+	inStock[0].size = "44";
+	inStock[0].price = 199.99;
 }
