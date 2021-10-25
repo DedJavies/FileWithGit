@@ -12,7 +12,7 @@ struct Shoes {
 	string size;
 	float price;
 
-	Shoes(string b, string m, string t, string c, string s, float p) {
+	Shoes(string b = "", string m = "", string t = "", string c = "", string s = "", float p = 0) {
 		brand = b;
 		material = m;
 		type = t;
@@ -24,5 +24,6 @@ struct Shoes {
 
 int main()
 {
-
+	Shoes inStock[5];
+	Shoes* ptr1 = &inStock[5];
 }
